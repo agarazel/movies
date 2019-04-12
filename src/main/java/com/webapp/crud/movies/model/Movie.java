@@ -11,6 +11,11 @@ public class Movie {
   private MovieGenre genre;
   private LocalDateTime releaseDate;
   
+  public Movie(String name, MovieGenre genre) {
+    this.name = name;
+    this.genre = genre;
+  }
+  
   public String getName() {
     return name;
   }
